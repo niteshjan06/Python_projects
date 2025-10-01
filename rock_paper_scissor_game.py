@@ -3,7 +3,7 @@ import random
 player_bot = 0
 player_you = 0
 i = 1
-sets = input("Enter number of sets you want to play: ")
+sets = int(input("Enter number of sets you want to play: "))
 while(i<=sets):
 
 
