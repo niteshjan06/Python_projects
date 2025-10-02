@@ -9,10 +9,11 @@ while(i<=sets):
 
 # code for condition of the game.
     computer_choice = random.choice(["rock","paper","scissor"])
-    choice = input("Choice[rock,paper or scissor]: ")
+    
 
 
 # taking input from the user.
+    choice = input("Choice[rock,paper or scissor]: ")
     your_choice = choice.lower()
 
 
